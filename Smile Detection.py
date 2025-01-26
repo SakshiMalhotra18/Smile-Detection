@@ -1,11 +1,11 @@
 import cv2
 
 # Load the face detector model
-face_detector_path = r'C:\Users\saksh\Desktop\pythonProject\START AGAIN\haarcascade_frontalface_default.xml'
+face_detector_path = r'(path to which haarcascade_frontalface_default.xml is saved)'
 face_detector = cv2.CascadeClassifier(face_detector_path)
 
 
-smile_detector_path = r'C:\Users\saksh\Desktop\pythonProject\START AGAIN\haarcascade_smile.xml'
+smile_detector_path = r'path to which haarcascade_smile.xml is saved'
 smile_detector = cv2.CascadeClassifier(smile_detector_path)
 
 # Initialize webcam
