@@ -50,8 +50,8 @@ while True:
             # pass  # draw all the rectangles along the smile
 
     # Draw rectangles around detected faces
-    # for (x, y, w, h) in smiles:
-    #     cv2.rectangle(the_face, (x, y), (x + w, y + h), (50, 50, 200), 4)
+    for (x, y, w, h) in smiles:
+        cv2.rectangle(the_face, (x, y), (x + w, y + h), (50, 50, 200), 4)
 
 
         if len(smiles)>0:
