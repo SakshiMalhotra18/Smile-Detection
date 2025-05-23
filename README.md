@@ -1,59 +1,57 @@
-😀 Smile Detection Using OpenCV
+# 😊 Smile Detection using OpenCV
 
-Welcome to the Smile Detection project! 🎉 This project applies computer vision techniques using OpenCV to detect faces and smiles in real-time via webcam.
+This project implements real-time smile detection using OpenCV's Haar Cascade Classifiers. It captures video from a webcam, detects faces and smiles, and highlights them with bounding boxes.
 
-📌 Project Overview
+## 📁 Project Structure
 
-🎯 Goal: Detect faces and smiles in real-time using OpenCV.
+```
+Smile-Detection--
+├── smile_detection.py       # Main script for real-time smile detection
+├── haarcascades/
+│   ├── haarcascade_frontalface_default.xml
+│   └── haarcascade_smile.xml
+├── README.md                # Project overview and instructions
+└── requirements.txt         # Python dependencies
+```
 
-📂 Dataset: Pre-trained Haar Cascade models from OpenCV.
+## 🚀 Getting Started
 
-🛠 Tech Stack: Python, OpenCV, NumPy
+### Prerequisites
 
-📊 Dataset Information
+- Python 3.x
+- OpenCV
 
-haarcascade_frontalface_default.xml → Pre-trained Haar Cascade for face detection.
+### Installation
 
-haarcascade_smile.xml → Pre-trained Haar Cascade for smile detection.
+1. Clone the repository:
 
-🚀 How to Run This Project
+   ```bash
+   git clone https://github.com/SakshiMalhotra18/Smile-Detection--.git
+   cd Smile-Detection--
+   ```
 
-1️⃣ Clone this repository:
+2. Install the required packages:
 
-git clone https://github.com/SakshiMalhotra18/smile-detection.git
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2️⃣ Navigate to the project directory:
+3. Run the smile detection script:
 
-cd smile-detection
+   ```bash
+   python smile_detection.py
+   ```
 
-3️⃣ Install dependencies:
+## 🧠 How It Works
 
-pip install opencv-python
+- Utilizes OpenCV's Haar Cascade Classifiers to detect faces and smiles.
+- Processes video frames from the webcam in real-time.
+- Draws rectangles around detected faces and smiles.
 
-4️⃣ Run the script:
+## 📄 License
 
-python face.py
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-🖼️ How It Works
+## 🙌 Acknowledgments
 
-The script captures video from the webcam.
-
-It converts the frames to grayscale for better detection.
-
-Faces are detected and highlighted using bounding boxes.
-
-Inside detected faces, smiles are detected and highlighted.
-
-If a smile is detected, a "Smiling" label appears!
-
-📸 Demo
-
-Run the script and smile at the camera to see the detection in action!
-
-📝 License
-
-This project uses OpenCV’s Haar Cascade models, which are freely available under the OpenCV license.
-
-⭐ Contribute
-
-Feel free to fork the repository and contribute improvements! 🚀
+- OpenCV library for providing the Haar Cascade Classifiers.
