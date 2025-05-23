@@ -7,9 +7,8 @@ This project implements real-time smile detection using OpenCV's Haar Cascade Cl
 ```
 Smile-Detection--
 ├── smile_detection.py       # Main script for real-time smile detection
-├── haarcascades/
-│   ├── haarcascade_frontalface_default.xml
-│   └── haarcascade_smile.xml
+├── haarcascade_frontalface_default.xml
+├── haarcascade_smile.xml
 ├── README.md                # Project overview and instructions
 └── requirements.txt         # Python dependencies
 ```
